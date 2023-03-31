@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:7b60642f-f958-4b91-a525-08d13098c77e#"
+     xml:base="urn:webprotege:ontology:7b60642f-f958-4b91-a525-08d13098c77e"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:7b60642f-f958-4b91-a525-08d13098c77e"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GezZlznZudAFpVSYNfsm5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8GezZlznZudAFpVSYNfsm5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f"/>
+        <rdfs:label>buy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nKoQZDJ2IIVLYnmxTZ9Jn -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8nKoQZDJ2IIVLYnmxTZ9Jn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDdLZu7Wcz6Kh8zpbAd8Y9Y"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R707fJd3QsMrhZAp6P68XV0"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7rH9iRSP93mxnIuArE6kYk"/>
+        <rdfs:label>tested</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQsYgBogTxYtViTpaxt4kh -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDQsYgBogTxYtViTpaxt4kh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40"/>
+        <rdfs:label>participate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R707fJd3QsMrhZAp6P68XV0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R707fJd3QsMrhZAp6P68XV0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40"/>
+        <rdfs:label>jumping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rH9iRSP93mxnIuArE6kYk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7rH9iRSP93mxnIuArE6kYk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40"/>
+        <rdfs:label>dressage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ANRh427pgQPzc6Qvarnjb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ANRh427pgQPzc6Qvarnjb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE"/>
+        <rdfs:label>category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Kl6GUx9crq9WzfJVDsr8K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Kl6GUx9crq9WzfJVDsr8K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Arabian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KwCgjxtCwHs0ZvWT2ctat -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KwCgjxtCwHs0ZvWT2ctat">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKhlUKeC3dC5xjamr4RcuW"/>
+        <rdfs:label>&lt;150 (pony_class)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bFjpL8tYkgxuyg1KLY0N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bFjpL8tYkgxuyg1KLY0N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Trotter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bI2Iv26GUyC2htCG9LYrQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bI2Iv26GUyC2htCG9LYrQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Andalusian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE">
+        <rdfs:label>Equistrian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ma24IsZQVVxXTFkA3djfP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ma24IsZQVVxXTFkA3djfP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ANRh427pgQPzc6Qvarnjb"/>
+        <rdfs:label>child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yfFwadg41J10Gm2bphZqz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9yfFwadg41J10Gm2bphZqz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Welsh_pony</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7RQFqdqkZjLIPxtv0hjXv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7RQFqdqkZjLIPxtv0hjXv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDi5Ef7MndM5XkyOSesXRuO"/>
+        <rdfs:label>4-6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7xTrpuNjG78uyv2JgrDeh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7xTrpuNjG78uyv2JgrDeh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKhlUKeC3dC5xjamr4RcuW"/>
+        <rdfs:label>&gt;150</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDEx7oEhh8wKEvlS26SFZC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDEx7oEhh8wKEvlS26SFZC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ANRh427pgQPzc6Qvarnjb"/>
+        <rdfs:label>adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKhlUKeC3dC5xjamr4RcuW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKhlUKeC3dC5xjamr4RcuW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f"/>
+        <rdfs:label>height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBN1nYwjlnnKGwdaFajWgdO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBN1nYwjlnnKGwdaFajWgdO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>En_thoroughbred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuNQEGxHmyv1QmEX0WzphJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBuNQEGxHmyv1QmEX0WzphJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ANRh427pgQPzc6Qvarnjb"/>
+        <rdfs:label>young</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvMUXDH0A5dP4GgL2nnr6A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvMUXDH0A5dP4GgL2nnr6A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMipTbhhxxNWVgK98BusB2"/>
+        <rdfs:label>&gt;55</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxWA14xKLot9m8F65Obxq3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxWA14xKLot9m8F65Obxq3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDi5Ef7MndM5XkyOSesXRuO"/>
+        <rdfs:label>6+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCAo6uiogYycbYU8LLl6kgu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCAo6uiogYycbYU8LLl6kgu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDi5Ef7MndM5XkyOSesXRuO"/>
+        <rdfs:label>2-4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMipTbhhxxNWVgK98BusB2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMipTbhhxxNWVgK98BusB2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9mWh6L7KuB1pqXdXAonzNE"/>
+        <rdfs:label>weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40">
+        <rdfs:label>Discipline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f"/>
+        <rdfs:label>breed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcTwjY1CmXo1kGowy2y9Cm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDcTwjY1CmXo1kGowy2y9Cm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40"/>
+        <rdfs:label>runs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdLZu7Wcz6Kh8zpbAd8Y9Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdLZu7Wcz6Kh8zpbAd8Y9Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Holstein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDi5Ef7MndM5XkyOSesXRuO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDi5Ef7MndM5XkyOSesXRuO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f"/>
+        <rdfs:label>age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDinvlxvSqkJFh1UXP77ixH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDinvlxvSqkJFh1UXP77ixH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDY6i0BktHSyFS2CvEohwTE"/>
+        <rdfs:label>Budenny</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RT86e5aiBhsEuNE5Vqfs7f">
+        <rdfs:label>Horse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rrj0aXj8ZWBRyEnPUOnY6q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rrj0aXj8ZWBRyEnPUOnY6q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMipTbhhxxNWVgK98BusB2"/>
+        <rdfs:label>&lt; 55</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rww6YpofuvWD5LLLAuqG5h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rww6YpofuvWD5LLLAuqG5h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSfJ1fXMKZPnL4TJsgEZ40"/>
+        <rdfs:label>races</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
